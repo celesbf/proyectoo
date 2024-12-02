@@ -16,12 +16,12 @@ if(isset($_POST['consultas']))
     include ("conexion.php");
 
     
-  //guardamos la info en una variable:
+ 
   $resultados = mysqli_query($conexion,"SELECT * FROM clientes");
-  //mostramos la info:
+  
   while($consultas = mysqli_fetch_array($resultados))
   {
-//imprimimos resultados en formato tabla:		
+	
     echo "
       <table width=\"50%\" border=\"1\">
         <tr>
