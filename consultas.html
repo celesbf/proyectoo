@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>  
+
+<head>
+
+  <link rel="stylesheet"  href="estilo.css">
+</head>
+<body>
+    <form action="consultas.php" method="post"></form>
+
+
+
+    <h1>Consultas</h1>
+
+
+<br>
+
+<h2>Consulta General:</h2>
+<form action="consultas.php"  method="post">
+    <button type="submit" value="consultas" name="consultas">Consultas</button>
+
+  </form> <br>
+  <form method="POST" action="buscar.php">
+    <h2>Buscar Cliente:</h2><br>
+    <input type="text" name="nombre" id="nombre" placeholder="Ingresa el nombre">
+    <input type="submit" name="buscar" value="Buscar">
+</form>
+<br>
+
+<h3>Volver al Menu:</h3>
+
+<a href="menu.php">
+  <input type="button" value="Volver">
+</a>
+
+
+</body>
+</html>
